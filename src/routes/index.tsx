@@ -7,12 +7,12 @@ import { Switch, Route } from 'react-router-dom';
 const Dashboard = React.lazy(() =>
 import(
     /* webpackPrefetch: true */
-    /* webpackChunkName: "dashboard*/'../pages/Dashboard'))
+    /* webpackChunkName: "dashboard"*/'../pages/Dashboard'))
 
 const Repository = React.lazy(() =>
 import(
     /* webpackPrefetch: true */
-    /* webpackChunkName: "Repository*/'../pages/Repository'))
+    /* webpackChunkName: "Repository"*/'../pages/Repository'))
 
 const Routes: React.FC = () => (
     <React.Suspense fallback={'Loading...'}>
